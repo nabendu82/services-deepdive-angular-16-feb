@@ -11,7 +11,7 @@ export class AppComponent {
 
   constructor(private accountsService: AccountService){}
 
-  ngOninit(){
+  ngOnInit(){
     this.accounts = this.accountsService.accounts;
   }
 
